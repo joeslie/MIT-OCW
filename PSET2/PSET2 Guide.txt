@@ -1,1 +1,73 @@
-This is where OCW Lecture 4,5, 6 Notes
+This is where OCW Lecture 5 Notes
+**********************************
+LECTURE 5 - Objects in Python
+**********************************
+There are 3 data structure in python
+1. Tuples - Ordered sequences of objects
+2. List - Ordered sequences of objects
+3. Dictionary - There are not ordered
+
+========================================
+Tuples: 
+Are Immutable - You cannot change the value of old tuples
+Example of tuples:
+Test = (1, 2, 3)
+print Test[0] --> 1
+print Test[1] --> 2
+print Tesr[-1] --> 3
+print len(Test) --> 4
+print Test --> (1, 2, 3)
+print Test[3] --> Gives Error, Out of Range
+
+You can also find the divisors of 100
+Code in PSET2 Lecture.py
+
+Slices of Tuples:
+Gives range of values in tuples
+Examples:
+print divisors(1:3) --> (2, 4)
+Code i PSET2 Lecture.py
+
+===========================================
+===========================================
+List:
+Are Mutable - You can change the value.
+Example of List:
+Techs = ['MIT', 'Cal Tech'] --> Declaration of List
+Univs = []
+Univs.append(Techs) --> Append Techs into empty list Univ
+
+append = is a method in python, alternative syntax in a function.
+
+So when you print:
+print (Univs) --> It will shows Techs updated.
+You can add more than one list into the list,
+and access them one by one with loop in
+pset2 lecture.py
+
+Why we dont just use this:
+flat = Techs + Ivys
+print (flat)
+Because it just combines all string into one big
+list, which it cannot differentiate list
+You can see the result between Univs and Flat differs.
+
+You can also use .remove to remove something in list.
+Example in code
+
+You can also you .sort alphabetically with this:
+flat.sort()
+
+If we change the earlier bounded list like:
+L1 = [2]
+L2 = [L1, L1]
+print (L2) --> provides [2], [2]
+// IF WE CHANGE EARLIER BOUNDED VAR
+L1 = [3]
+print (L2) --> provides [3], [3]
+=======================================
+=======================================
+Dictionary:
+The indexed can be any immutable type. 
+Example:
+
