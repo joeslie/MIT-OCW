@@ -51,9 +51,20 @@ print ("L2 =", L2)
 copyList(L1, L1)
 print ("L1 =", L1)
 '''
-
-D = {1, 'one', 'deux', 'two', 'pi', 3.14159}
-
-
-
+'''
+D = {1: 'one', 'deux': 'two', 'pi': 3.14159}
+print (D['pi'])
+D1 = D
+print (D1)
+D1[1] = 'Uno'
+print(D1)
+'''
+'''
+Etof = {'bread': 'du paln', 'wine': 'du vin',\
+        'eats': 'mange', 'drinks': 'bois',\
+        'likes': 'aime', 1: 'un',\
+        '6.00': '6.00'}
+print (Etof)
+print (Etof.keys())
+'''
 

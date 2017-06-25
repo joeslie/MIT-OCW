@@ -69,5 +69,20 @@ print (L2) --> provides [3], [3]
 =======================================
 Dictionary:
 The indexed can be any immutable type. 
+Elements are not ordered
+The Indexes may not integer [a], they are called keys.
+Dict is a set of key value thta can be accessed.
 Example:
+You need to equal all the dict like this:
+D = {1: 'Uno', 'Deus': 'Two'}
+and when you need to accessed it, you can use
+letter rather than number
+D[Deus] --> Two
+D[Deus] = '2'
+D[Deus] --> '2'
+Key must be poirs
+
+You can also show only the keys
+D.keys() --> {'1', 'Deus'}
+D.keys --> It shows it is a method, not execute it. 
 

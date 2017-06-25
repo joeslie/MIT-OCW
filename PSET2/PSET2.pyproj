@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>da5ecea7-c0b1-4eea-9735-f17e2e650f15</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PSET2 Lecture.py</StartupFile>
+    <StartupFile>PSET2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
