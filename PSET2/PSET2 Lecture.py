@@ -52,19 +52,31 @@ copyList(L1, L1)
 print ("L1 =", L1)
 '''
 '''
-D = {1: 'one', 'deux': 'two', 'pi': 3.14159}
-print (D['pi'])
-D1 = D
-print (D1)
-D1[1] = 'Uno'
-print(D1)
-'''
-'''
-Etof = {'bread': 'du paln', 'wine': 'du vin',\
+Dictionary
+EtoF = {'bread': 'du pain', 'wine': 'du vin',\
         'eats': 'mange', 'drinks': 'bois',\
         'likes': 'aime', 1: 'un',\
-        '6.00': '6.00'}
-print (Etof)
-print (Etof.keys())
-'''
+        '6.00':'6.00'}
 
+def translateWord(word, dictionary):
+    if word in dictionary:
+        return dictionary[word]
+    else:
+        return word
+    
+def translate(sentence):
+    translation = ''
+    word = ''
+    for c in sentence:
+        if c != ' ':
+            word = word + c
+        else:
+            translation = translation + ' '\
+                          + translateWord(word, EtoF)
+            word = ''
+    return translation[1:] + ' ' + translateWord(word, EtoF)
+
+print (translate('John eats bread'))
+print (translate('Steve drinks wine'))
+print (translate('John likes 6.00'))
+'''

@@ -86,3 +86,15 @@ You can also show only the keys
 D.keys() --> {'1', 'Deus'}
 D.keys --> It shows it is a method, not execute it. 
 
+***********************************
+Lecture 6
+***********************************
+Divide and Conquer:
+Make big problem became smaller problem since
+Small problem are easy to solve
+Solution to small problem can easily solved big problem
+
+Example of it is Recursion
+Recursion is used in CS as
+- Way of describing problems
+- Way of designing solutions
